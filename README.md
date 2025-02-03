@@ -30,6 +30,7 @@ Only DS Staff will have access to the bot.
 - Quickly get formats
 - Quickly retrieve links
    - eg The Ranking Center link
+- Quickly retrieve staff documents
 ... and more to come!
 
 ## Notices
