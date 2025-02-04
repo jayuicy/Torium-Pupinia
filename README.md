@@ -35,3 +35,14 @@ Only DS Staff will have access to the bot.
 
 ## Notices
 This bot has no affiliation with Divine Sister, or the HR/Developer team. All issues to do with this bot should be forwarded to my Discord account: jayuicy
+
+## Update Log
+
+<details>
+  <summary>Expand Update Log</summary>
+
+### Version 1.1.0 (4th February 2025)
+- Removed option to get the LBE Recipes document from the /getdoc command due to the document being deleted.
+   - Fixed crashing when executing the command.
+
+</details>
