@@ -24,14 +24,16 @@ Only DS Staff will have access to the bot.
 <details>
 <summary>Expand Command List</summary>
 
+If any of the commands listed here are not visible for you, run the !refresh command and try again.
+
 - /getserver (lbe/dpi)
   - Displayers LBE's/DPI's server list and gives join command to specific worlds/wards.
 - /getdoc (option)
-  - Get the message link to any DS document + link to document. Options: Emerald, Moderation, In-Game Moderation, DPI Dress Code, Nurse Regulations, Trinity, Divine Sister All Docs
+  - Get the message link to any DS document + link to document. Options: Emerald, Moderation, In-Game Moderation, DPI Dress Code, Nurse Regulations, LBE Dress Code, Lunar Regulations, Trinity, Divine Sister All Docs
 - /getformat (option)
   - Get the message link any DS message format. Options: Exploit, Bug, Inactivity Notice
 - /getlink (option)
-  - Get the link of any DS link. Options: Divine Sister Group, The Ranking Center, De Pride Isle, Les Beyond East, Gaymoria, Update Button, Holy Support, Nun Hat
+  - Get the link of any DS link. Options: Divine Sister Group, The Ranking Center, De Pride Isle, Les Beyond East, Gaymoria, Update Button, Holy Support, Nun Hat, Appeals Court
 - /ssstatus
   - Displays if sunday service is active/inactive, and the time remaining.
 - /logstars (week) (hours) (total) (stars) (startotal)
@@ -42,7 +44,6 @@ Only DS Staff will have access to the bot.
   - Logs your warnings/strikes/star removals.
 
   For the reform log commands, these are designed to be used alongside the RoPro extension, where (week) is the week of your staff journey, (hours) is your weekly hours, (total) is your total hours, (stars) is your stars you received that week, (startotal) is the total amount of stars you currently have.
-  
  </details>
 
 
@@ -53,6 +54,14 @@ This bot has no affiliation with Divine Sister, or the HR/Developer team. All is
 
 <details>
   <summary>Expand Update Log</summary>
+
+### Version 1.2.0 (8th February 2025)
+- Updated /getlink command
+  - Added 'Appeals Court' option
+- Update /getdoc command
+   - Added 'LBE Dress Code' and 'Lunar Regulations'
+- Added new !refresh command
+   - Run this command to re-register slash commands for updates.
 
 ### Version 1.1.1 (8th February 2025)
 - Made minor adjustments to /ssstatus command
