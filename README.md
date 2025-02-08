@@ -19,19 +19,32 @@ Only DS Staff will have access to the bot.
 - Leaves the guild if you are demoted/an unverified person tries to use the bot.
 - Ephemeral responses to prevent leaking.
 
-## Bot Features
-- Reform tracking
- - Features such as logging stars, logging evaluations, logging strikes/warnings
-- Sunday Service Status
-  - Shows if Sunday Service is active/inactive, and how long remaining/until it's active
-- Get server info
-   - Displays server information for either DPI or LBE
-      - Displays player count, server speed, and fast join links
-- Quickly get formats
-- Quickly retrieve links
-   - eg The Ranking Center link
-- Quickly retrieve staff documents
-... and more to come!
+## Command List
+
+<details>
+<summary>Expand Command List</summary>
+
+- /getserver (lbe/dpi)
+  - Displayers LBE's/DPI's server list and gives join command to specific worlds/wards.
+- /getdoc (option)
+  - Get the message link to any DS document + link to document. Options: Emerald, Moderation, In-Game Moderation, DPI Dress Code, Nurse Regulations, Trinity, Divine Sister All Docs
+- /getformat (option)
+  - Get the message link any DS message format. Options: Exploit, Bug, Inactivity Notice
+- /getlink (option)
+  - Get the link of any DS link. Options: Divine Sister Group, The Ranking Center, De Pride Isle, Les Beyond East, Gaymoria, Update Button, Holy Support, Nun Hat
+- /ssstatus
+  - Displays if sunday service is active/inactive, and the time remaining.
+- /logstars (week) (hours) (total) (stars) (startotal)
+  - Logs your stars for the week  in a selected channel. 
+- /logeval (week) (hours) (total) (evaluation result)
+  - Logs your stars for the week in a selected channel.
+- /logstarremoval (week) (starssremoved) (totalstars) (penalty)
+  - Logs your warnings/strikes/star removals.
+
+  For the reform log commands, these are designed to be used alongside the RoPro extension, where (week) is the week of your staff journey, (hours) is your weekly hours, (total) is your total hours, (stars) is your stars you received that week, (startotal) is the total amount of stars you currently have.
+  
+ </details>
+
 
 ## Notices
 This bot has no affiliation with Divine Sister, or the HR/Developer team. All issues to do with this bot should be forwarded to my Discord account: jayuicy
