@@ -41,6 +41,10 @@ This bot has no affiliation with Divine Sister, or the HR/Developer team. All is
 <details>
   <summary>Expand Update Log</summary>
 
+### Version 1.1.1 (8th February 2025)
+- Made minor adjustments to /ssstatus command
+   - Ensured proper time remaining is displayed, will need to wait until Sunday Service is inactive to see if these adjustments are properly functioning.
+
 ### Version 1.1.0 (4th February 2025)
 - Removed option to get the LBE Recipes document from the /getdoc command due to the document being deleted.
    - Fixed crashing when executing the command.
