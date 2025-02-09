@@ -55,6 +55,10 @@ This bot has no affiliation with Divine Sister, or the HR/Developer team. All is
 <details>
   <summary>Expand Update Log</summary>
 
+  ### Version 1.2.1 (9th February 2025)
+- Fixed bug displaying incorrect role emoji for the reform-logging commands.
+   - Now displays the correct servant moon instead of stootiate moon for Maha Servants
+
 ### Version 1.2.0 (8th February 2025)
 - Updated /getlink command
   - Added 'Appeals Court' option
