@@ -42,6 +42,8 @@ If any of the commands listed here are not visible for you, run the !refresh com
   - Logs your stars for the week in a selected channel.
 - /logstarremoval (week) (starssremoved) (totalstars) (penalty)
   - Logs your warnings/strikes/star removals.
+- /whois (username)
+   - Retrieves information about the inputted user.
 
   For the reform log commands, these are designed to be used alongside the RoPro extension, where (week) is the week of your staff journey, (hours) is your weekly hours, (total) is your total hours, (stars) is your stars you received that week, (startotal) is the total amount of stars you currently have.
  </details>
@@ -54,6 +56,12 @@ This bot has no affiliation with Divine Sister, or the HR/Developer team. All is
 
 <details>
   <summary>Expand Update Log</summary>
+
+  ### Version 1.3.0 (31st May 2025)
+- Added new /whois command.
+   - Usage: /whois (username)
+   - Displays target user's Username, ROBLOX ID, Rank in DS, Account Age, Avatar, Eligibility for Divinor and Profile Link.
+- Fixed star and startotal being mixed up with the /logstars command.
 
   ### Version 1.2.2 (14th May 2025)
 - Fixed crash bug when utilising the console button for the /getserver command.
